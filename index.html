@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <Meta charset="UTF8" />
+    <Meta charset="UTF-8" />
     <Meta name="WebStudio" />
     <Meta content="Помощь в бизнесе" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="goit-markup-hw-02/CSS/style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+     rel="stylesheet"/>
 </head>
   <body>
     <header>
+      <div class="Logo">
      <a href="/">WebStudio</a>
+    </div>
       <nav>
       <ul>
-        <li><a href="/studio">Студия</a></li>
-        <li><a href="/portfolio">Портфолио</a></li>
-        <li><a href="/contact">Контакты</a></li>
+        <ul class="site-nav-list">
+          <li><a href="./" class="link current">Студия</a></li>
+          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
       </ul>
      </nav>
      <ul>
-      <li><a href="mailto:info@example.com">info@example.com</a></li>
+      <li> <span class="contacts"><a href="mailto:info@example.com">info@example.com</a></span></li>
       <li><a href="tel:+380991111111">+380991111111</a></li>
     </ul>
   </header>
   <main> 
+    <h1 class="title">Эффективные решения для вашего бизнеса</h1>
     <section class="button">
-    <h1>Эффективные решения для вашего бизнеса</h1>
     <button type="button">Заказать услугу</button>
   </section>
   <!-- Унікальний контент сторінки -->

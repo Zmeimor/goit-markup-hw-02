@@ -1,0 +1,40 @@
+.p {
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+.logo{
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.title{
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.contacts{
+position: absolute;
+width: 135px;
+height: 16px;
+left: 1078px;
+top: 32px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #2196F3;
+}
+.site-nav-list{
+    display: flex;
+    flex-direction: row;
+}
