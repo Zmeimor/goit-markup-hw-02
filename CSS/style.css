@@ -97,7 +97,6 @@ margin-left: auto;
 
 
 .title{
-position: absolute;
 font-weight: 900;
 font-size: 44px;
 line-height: 60px;
@@ -112,7 +111,6 @@ background-color: #2196F3;
 }
 
 .button {
-    position: absolute;
     width: 200px;
     height: 50px;
     left: 700px;
@@ -125,7 +123,6 @@ background-color: #2196F3;
 
 .text-container {
 display: flex;
-position: absolute;
 height: 101px;
 left: 215px;
 top: 774px;
@@ -203,7 +200,6 @@ background: #FFFFFF;
 height: 42px;
 left: 668px;
 top: 1543px;
-    
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -252,7 +248,7 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
-.end{ position: absolute;
+.end{
 width: 1600px;
 height: 252px;
 left: 0px;
@@ -273,7 +269,6 @@ letter-spacing: 0.03em;
 color: #2196F3;
 }
 .end-contaks{
-position: absolute;
 width: 231px;
 height: 81px;
 left: 215px;
