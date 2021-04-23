@@ -252,19 +252,18 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 
-.end{
-    position: absolute;
+.end{ position: absolute;
 width: 1600px;
 height: 252px;
 left: 0px;
 top: 2097px;
-background: #212121);
+background: #212121;
 }
+
 .logo-end {
 height: 31px;
 left: 215px;
 top: 2157px;
-
 font-family: Raleway;
 font-style: normal;
 font-weight: bold;
