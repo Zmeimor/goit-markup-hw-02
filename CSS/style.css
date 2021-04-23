@@ -147,7 +147,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: var(--c-grey);
+color: #757575;
 }
 
 .text-elements-title{
@@ -156,7 +156,7 @@ font-size: 14px;
 line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--c-black);
+color: #212121;
 }
 .foto {
 position: absolute;
@@ -177,7 +177,7 @@ font-weight: bold;
 font-size: 36px;
 line-height: 42px;
 letter-spacing: 0.03em;
-color: var(--c-black);
+color: #212121;
 }
 .menu-foto{
 display: flex;
@@ -197,7 +197,7 @@ width: 1600px;
 height: 648px;
 left: 0px;
 top: 1449px;    
-background: var(--c-white);
+background: #FFFFFF;
 }
 .team-title {
 height: 42px;
@@ -211,7 +211,7 @@ font-size: 36px;
 line-height: 42px;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--c-black);
+color: #FFFFFF;
 }
 .team-elements{
 display: flex;
@@ -249,7 +249,7 @@ font-size: 16px;
 line-height: 19px;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--c-grey);
+color: #757575;
 }
 
 .end{
@@ -258,7 +258,7 @@ width: 1600px;
 height: 252px;
 left: 0px;
 top: 2097px;
-background: var(--c-black);
+background: #212121);
 }
 .logo-end {
 height: 31px;
@@ -271,7 +271,7 @@ font-weight: bold;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: var(-c-blue);
+color: #2196F3;
 }
 .end-contaks{
 position: absolute;
@@ -279,6 +279,7 @@ width: 231px;
 height: 81px;
 left: 215px;
 top: 2208px;
+background-color: #212121;
 }
 .map{
 height: 21px;
@@ -290,7 +291,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: var(--c-white);
+color: #FFFFFF;
 }
 .product{
 width: 1170px;
@@ -314,7 +315,7 @@ font-weight: bold;
 font-size: 18px;
 line-height: 36px;
 letter-spacing: 0.06em;
-color: var(--c-black);
+color: #212121;
 }
 .product_tape{
 width: 322px;
@@ -327,7 +328,7 @@ font-weight: normal;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
-color: var(--c-grey);
+color: #2196F3;
 }
 .button_portfolio{
 display: flex;
