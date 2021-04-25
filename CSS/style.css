@@ -8,12 +8,12 @@ root {
 .body {
 font-family: Roboto, Raleway;
 font-weight: 400;
-color: #212121;
+color: var(--c-black);
 }
 
 .header {
     width: 1600px;
-    background: #FFFFFF;
+    background: var(--c-white);
 }
 
 .a { 
@@ -21,7 +21,7 @@ color: #212121;
    }
 
 .contacts:hover, .map:hover {
-    color: #212121
+    color: var(--c-black)
 }
 .ul {
     list-style: none;
@@ -29,27 +29,18 @@ color: #212121;
     padding: 0;
 }
 .web-one{
-    color:#2196F3
+    color: var(--c-blue)
 }
 .web-two{
-
-    color: #2196F3
-    }
-
-.site-nav-list{
-    display: flex;}
-
+ color: var(--c-black)
+ }
 
 .link-current{
-color:#2196F3;
+color: var(--c-blue)
 }
 
 .link{
-color:#212121;
-}
-
-.container-contacts{
-display: flex;
+color: var(--c-black)
 }
 
 .contacts{
@@ -58,20 +49,31 @@ font-family: Roboto
 
 
 .title{
+    width: 696px;
+height: 120px;
     font-family: Roboto;
     font-weight: 900;
-    color: #FFFFFF;
+    font-size: 44px;
+    line-height: 60px;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+    color: var(--c-white)
 }
 
 .hero {
-background-color: #2196F3;
+background-color: var(--c-black);
 padding-top: 200px;
 padding-bottom: 200px;
 }
 
-.button {
-    width: 200px;
-    background: #2196F3;
+.btn {
+    background: var(--c-black);
+    color: var(--c-white);
+    font-family: Roboto;
+    align-items: center;
+text-align: center;
+    cursor: pointer;
 }
 
 .text-container {
@@ -84,17 +86,17 @@ display: flex;
 
 .text-item{
 font-family: Roboto;
-color: #212121;
+color: var(--c-black);
 }
 
 .text-elements{
 font-family: Roboto;
-color: #757575;
+color:var(--c-grey);
 }
 
 .text-elements-title{
     font-family: Roboto;
-color: #212121;
+color: var(--c-black);
 }
 
 .foto-elements{
@@ -105,7 +107,7 @@ flex-direction: column;
 width: 380px;
 text-align: center;
 font-family: Roboto;
-color: #212121;
+color:var(--c-black);
 }
 .menu-foto{
 display: flex;
@@ -119,7 +121,7 @@ background: #F5F4FA;
 }
 .team-title {
 font-family: Roboto;
-color: #212121;
+color: var(--c-black);
 }
 
 .team-menu{
@@ -131,39 +133,39 @@ width: 270px;
 }
 .name{
 font-family: Roboto;
-color: #212121;
+color: var(--c-black);
 }
 .work{
 font-family: Roboto;
-color: #757575;
+color: var(--c-grey);
 }
 
 .end{
 width: 1600px;
-background: #212121;
+background: var(--c-black);
 }
 
 .logo-end {
 font-family: Raleway;
-color: #2196F3;
+color: var(--c-blue);
 }
 .end-contaks{
-background-color: #212121;
+background-color: var(--c-black);
 }
 .map{
 font-family: Roboto;
-color: #FFFFFF;
+color: var(--c-white);
 }
 .product-elements{
 display: flex;
 }
 .product_name{
 font-family: Roboto;
-color: #212121;
+color: var(--c-black);
 }
 .product_tape{
 font-family: Roboto;
-color: #757575;
+color: var(--c-grey);
 }
 .button_portfolio{
 display: flex;
