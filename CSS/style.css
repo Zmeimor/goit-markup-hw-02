@@ -6,6 +6,7 @@ root {
 }
 
 .body {
+list-style-type: none;
 font-family: Roboto;
 color: #212121;
 }
@@ -14,30 +15,23 @@ color: #212121;
     width: 1600px;
     background: #FFFFFF;
 }
-.a:link {
+.link {
+    list-style-type: none;
 font-family: Roboto;
 font-weight: 500;
 color: #212121;
 line-height: 16px;
-text-decoration: none;
 }
 .link:hover{
+    
     font-family: Roboto;
     font-weight: 500;
     width: 77px;
     color: #2196F3;
-    text-decoration: none;
 }
 
-
-.a { 
-    text-decoration: none;
-   }
-
-.contacts:hover, .map:hover {
-    color: #212121
-}
 .ul {
+list-style-type: none;
 list-style: none;
 margin: 0;
 padding: 0;
@@ -46,17 +40,22 @@ line-height: 31px;
 }
 
 .logo {
-text-decoration: none;
 font-family: Raleway;
-color:#2196F3;
+color:#212121;
 width: 145px;
 font-size: 26px;
 line-height: 31px;
 }
-.web-two{
-color: #212121;
+
+.web-end-two, .map,.end-contacts, .logo, .logo-end, .site-nav-lis, .ctn, .web-one, .link, .web-two, .end {
 text-decoration: none;
+}
+
+.web-one{
+color: #2196F3;
  }
+.head {
+}
 
 .link-current{
 color:#2196F3;
@@ -73,7 +72,9 @@ font-weight: 500;
 color: #2196F3;
 width: 135px; 
 }
-
+.site-nav-list {
+list-style-type: none;
+}
 .title{
 width: 696px;
 height: 120px;
@@ -85,6 +86,7 @@ text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
+text-decoration: none;
 }
 
 .hero {
@@ -100,6 +102,9 @@ padding-bottom: 200px;
     font-size: 16px;
     line-height: 30px;
 }
+.contacts {
+    list-style-type: none;
+}
 
 .text-container {
 display: flex;
@@ -108,6 +113,7 @@ font-family: Roboto;
 
 .menu-text{
 display: flex;
+list-style-type: none;
 }
 
 .text-item{
@@ -128,7 +134,6 @@ line-height: 24px;
     font-family: Roboto;
 color: #212121;
 }
-
 .foto-elements{
 display: flex;
 flex-direction: column;
@@ -143,12 +148,18 @@ font-size: 36px;
 line-height: 42px;
 }
 .menu-foto{
+list-style-type: none;
 display: flex;
 width: 1170px;
 height: 386px;
 align-items: center;
 }
-
+.site-nav-list {
+    font-family: Roboto;
+    font-style: 500;
+    font-weight: 500;
+    color: #212121;
+}
 .team{ 
 background: #F5F4FA;
 }
@@ -162,6 +173,7 @@ line-height: 42px;
 }
 
 .team-menu{
+list-style-type: none;
 display: flex;
 align-items: center;
 }
@@ -186,6 +198,7 @@ line-height: 19px;
 font-family: Roboto;
 background: #212121;
 text-decoration: none;
+list-style-type: none;
 }
 
 .logo-end {
@@ -199,24 +212,34 @@ text-decoration: none;
     text-decoration: none;
 }
 
-.end-contaks{
-font-style: normal;
+.end-contakts{
+font-style: 400;
+font-family: Roboto;
 background-color: #212121;
 font-size: 14px;
 line-height: 24px;
 text-decoration: none;
+list-style-type: none;
 }
 .map{
+    list-style-type: none;
 font-family: Roboto;
 color: #FFFFFF;
 width: 231px;
 }
 .end-contacts {
+
+list-style-type: none;
 font-family: Roboto;
 width: 231px;
 color: rgba(255, 255, 255, 0.6);
 }
 
+.end-contacts:hover {
+    font-family: Roboto;
+    width: 231px;
+    color: rgba(255, 255, 255, 0.6);  
+}
 .button_one {
 font-family: Roboto;
 font-weight: 500;
@@ -229,6 +252,7 @@ color: #FFFFFF;
 .product-elements{
 display: flex;
 flex-wrap: wrap;
+list-style-type: none;
 }
 .product_name{
 font-family: Roboto;
