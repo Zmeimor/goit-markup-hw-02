@@ -6,15 +6,36 @@
   --max-white-color: #ffffff;
   --gray-color: #757575;
   --two-white-color: #f5f4fa;
+  --card-set-gep: 30px;
 }
 
 body {
   font-family: Roboto, sans-serif;
   color: var(--body-color);
 }
-
-header {
-  background: var(--max-white-color);
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
 }
 
 .container {
@@ -49,11 +70,6 @@ header {
 .activate {
   color: var(--blue-color);
 }
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 
 .logo {
   font-family: Raleway;
@@ -83,6 +99,7 @@ ul {
 
 .head {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  line-height: 1.15;
 }
 .head-container {
   display: flex;
@@ -95,6 +112,7 @@ ul {
 
 .contacts-link {
   color: var(--gray-color);
+  line-height: 1.14;
 }
 .contacts-link:focus {
   color: var(--blue-color);
@@ -109,6 +127,7 @@ ul {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  font-weight: 500;
 }
 .title {
   width: 696px;
@@ -143,6 +162,10 @@ ul {
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
+  line-height: 1.87;
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  font-weight: 700;
 }
 .btn:hover {
   background-color: var(--blue-color);
@@ -162,6 +185,8 @@ ul {
 .contacts {
   list-style-type: none;
   display: flex;
+  font-weight: 500;
+  letter-spacing: 0.03em;
 }
 .contacts :not(:last-child) {
   margin-right: 30px;
@@ -199,13 +224,21 @@ ul {
 .text-elements {
   color: var(--gray-color);
   font-size: 14px;
-  line-height: 2.4;
+  margin-bottom: 10px;
+  line-height: 1.71;
+  text-decoration: none;
+  list-style-type: none;
 }
 .foto-picture {
 }
 .text-elements-title {
   color: var(--body-color);
   text-decoration: none;
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
 }
 .foto {
 }
@@ -261,8 +294,8 @@ ul {
 .foto-elements {
   display: flex;
   flex-direction: column;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .foto_title {
@@ -339,51 +372,73 @@ ul {
   color: var(--max-white-color);
 }
 .product {
-  margin-top: 100px;
-  margin-bottom: 94px;
+  padding-top: 100px;
+  padding-bottom: 94px;
 }
 .product-elements {
   display: flex;
   flex-wrap: wrap;
-  list-style-type: none;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 .product-name {
+  font-family: Roboto;
+  color: var(--body-color);
+  font-size: 18px;
+  line-height: 2;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-weight: 700;
   color: var(--body-color);
   font-size: 18px;
-  line-height: 3.6;
+  line-height: 1.6;
+  margin-bottom: 4px;
 }
 .product-tape {
+  font-family: Roboto;
   color: var(--gray-color);
   font-size: 16px;
-  line-height: 3;
+  line-height: 1.8;
 }
 .btnp {
+  cursor: pointer;
+  border: transparent;
+  padding: 6px 22px;
+  text-align: center;
+  letter-spacing: 0.03em;
   display: flex;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2.6;
+  line-height: 1.62;
   background: var(--two-white-color);
   color: var(--body-color);
   display: flex;
   justify-content: center;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .btnp:focus {
   flex-direction: row;
   font-size: 16px;
-  line-height: 2.6;
+  font-weight: 500;
+  line-height: 1.62;
   background: var(--blue-color);
   color: var(--max-white-color);
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .btnp:hover {
   flex-direction: row;
   font-weight: 500;
   font-size: 16px;
-  line-height: 2.6;
+  line-height: 1.62;
   background: var(--blue-color);
   color: var(--max-white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .btnp-li {
   list-style-type: none;
@@ -401,6 +456,8 @@ ul {
   margin-right: 8px;
 }
 .product {
+  padding-top: 100px;
+  padding-bottom: 94px;
 }
 
 .product-elements {
@@ -408,6 +465,7 @@ ul {
   flex-wrap: wrap;
   list-style-type: none;
   margin-left: -30px;
+  margin-top: -30px;
 }
 
 .product-name {
@@ -423,13 +481,24 @@ ul {
   font-size: 16px;
   line-height: 3;
 }
+.button-portfolio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.btnp-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .prod-text {
   padding: 20px 24px;
   border-right: 1px solid var(--white-color);
   border-bottom: 1px solid var(--white-color);
   border-left: 1px solid var(--white-color);
 }
-.prod-li {
-  margin-left: 30px;
-  margin-top: 30px;
+.prod-item {
+  flex-basis: calc(100% / 3 - var(--card-set-gep));
+  margin-top: var(--card-set-gep);
+  margin-left: var(--card-set-gep);
 }
