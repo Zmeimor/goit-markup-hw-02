@@ -141,6 +141,7 @@ h3 {
   text-transform: uppercase;
   color: var(--max-white-color);
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .hero {
@@ -239,8 +240,65 @@ h3 {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 14px;
+  line-height: 1.87;
 }
 .foto {
+}
+.team {
+  background: var(--two-white-color);
+  padding-bottom: 94px;
+}
+.team-list {
+  display: flex;
+}
+.team-items {
+  background-color: var(--max-white-color);
+}
+.team-items:not(:last-child) {
+  margin-right: 30px;
+}
+.team-info {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.team-title {
+  font-style: 700;
+  color: var(--body-color);
+  font-size: 36px;
+  line-height: 1.16;
+  margin: 0px 0px 50px 0px;
+  text-align: center;
+  padding-top: 94px;
+}
+
+.foto-elements {
+  display: flex;
+  flex-direction: column;
+}
+
+.foto_title {
+  color: var(--body-color);
+}
+
+.menu-foto {
+  display: flex;
+}
+
+.team-name {
+  font-weight: 500;
+  color: var(--body-color);
+  font-size: 16px;
+  line-height: 1.18;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.team-work {
+  color: var(--gray-color);
+  font-size: 16px;
+  line-height: 1.18;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .foto-elements {
   display: flex;
@@ -268,29 +326,6 @@ h3 {
   margin-right: 50px;
 }
 
-.team {
-  background: var(--two-white-color);
-  margin-bottom: 94px;
-}
-.info :not(:last-child) {
-  margin-right: 30px;
-}
-.team-title {
-  font-style: 700;
-  color: var(--body-color);
-  font-size: 36px;
-  line-height: 4.2;
-  margin: 0px 0px 50px 0px;
-  text-align: center;
-  margin-top: 94px;
-}
-
-.team-menu {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-}
-
 .foto-elements {
   display: flex;
   flex-direction: column;
@@ -299,10 +334,15 @@ h3 {
 }
 
 .foto_title {
+  width: 380;
   margin: 0px auto;
+  font-style: 700;
   margin-bottom: 50px;
   text-align: center;
+  font-size: 36px;
+  line-height: 1.16;
   color: var(--body-color);
+  margin: 0px 0px 50px 0px;
 }
 
 .menu-foto {
@@ -311,17 +351,6 @@ h3 {
 }
 .menu-foto :not(:last-child) {
   margin-right: 30px;
-}
-.name {
-  font-weight: 500;
-  color: var(--body-color);
-  font-size: 16px;
-  line-height: 1.9;
-}
-.work {
-  color: var(--gray-color);
-  font-size: 16px;
-  line-height: 1.9;
 }
 
 .end {
